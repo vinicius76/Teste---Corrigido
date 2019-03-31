@@ -1,0 +1,1 @@
+web: gunicorn ProjetoAgenda.wsgi --log-file -

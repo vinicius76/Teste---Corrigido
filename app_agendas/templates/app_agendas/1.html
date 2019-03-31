@@ -1,0 +1,10 @@
+<h1><center> Agendas Publicas </h1>
+{% for Agenda_Publica in object_list%}
+
+    <div>
+        <h2>Nome da agenda:{{ Agenda_Publica.nome | linebreaksbr }}</h2>
+        <p>User:{{ Agenda_Publica.usuario }}</p>
+        <br>
+    </div>
+
+{% endfor %}
